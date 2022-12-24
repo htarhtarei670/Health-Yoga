@@ -1,0 +1,199 @@
+                        body {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                            font-family: 'DM Sans', sans-serif;
+                        }
+                        
+                        p {
+                            font-family: 'Roboto', sans-serif;
+                        }
+                        
+                        .nav-btn:hover {
+                            box-shadow: 6px 4px 10px rgba(197, 160, 57, 0.933);
+                            background-color: rgb(223, 195, 75);
+                            color: white;
+                        }
+                        
+                        .mt-mb {
+                            margin-top: 150px;
+                            margin-bottom: 100px;
+                        }
+                        
+                        .mx-6 {
+                            margin: 0px 100px;
+                        }
+                        /* start home section */
+                        
+                        .back-pic {
+                            background-image: url(/Image/yoga1.jpg);
+                            background-repeat: no-repeat;
+                            background-attachment: local;
+                            background-size: cover;
+                            width: 100%;
+                        }
+                        
+                        .back-pic1 {
+                            background-image: url(/Image/yoga13.jpg);
+                            background-repeat: no-repeat;
+                            background-attachment: local;
+                            background-size: cover;
+                        }
+                        
+                        .arrow {
+                            width: 50px;
+                            height: 50px;
+                        }
+                        
+                        .tra {
+                            transition: 0.5s;
+                        }
+                        
+                        .fs-0 {
+                            font-size: 50px
+                        }
+                        /* end home section */
+                        /* strt greeting */
+                        
+                        .yoga2 {
+                            box-shadow: -25px 29px 3px #EEF0F9;
+                            width: 85%;
+                            border-radius: 5px;
+                            margin-top: 20px;
+                        }
+                        /* end greeting */
+                        /* start why */
+                        
+                        .fst-ro {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 16px;
+                        }
+                        
+                        .fss-ro {
+                            font-size: 14px;
+                        }
+                        
+                        .btn-learn {
+                            background-color: #EEF0F9;
+                            margin-top: 10px;
+                            color: #5C6AC4;
+                            padding: 11px 35px;
+                        }
+                        
+                        .btn-learn:hover {
+                            background-color: #5C6AC4;
+                            box-shadow: 1px 1px 5px #5C6AC4;
+                            color: #f7f8fc;
+                        }
+                        
+                        .icon {
+                            font-size: 28px;
+                            background-color: #EEF0F9;
+                            width: 70px;
+                            height: 70px;
+                            text-align: center;
+                            color: #7f8ad1;
+                        }
+                        
+                        .bor-b {
+                            border-bottom: 1px solid#E5E5E5;
+                            padding-bottom: 50px;
+                        }
+                        /* end why */
+                        /* start schedule */
+                        
+                        .yoga6 {
+                            width: 430px;
+                            height: 400px;
+                            margin-bottom: 40px;
+                        }
+                        
+                        .time-table tr {
+                            border: 1px solid #E5E5E5;
+                            border-collapse: collapse;
+                        }
+                        
+                        .time-table th,
+                        .time-table td {
+                            padding: 10px 25px;
+                            text-align: left;
+                        }
+                        /* end schedule */
+                        /* start service */
+                        
+                        .course-img {
+                            width: 100%;
+                            height: 600px;
+                            border-radius: 5px;
+                            transition: 0.5s;
+                        }
+                        
+                        .course-img:hover {
+                            cursor: crosshair;
+                            filter: grayscale(100%);
+                            transform: scale(1.012);
+                            transition: 0.5s;
+                        }
+                        
+                        .course-img-sm {
+                            width: 100%;
+                            height: 290px;
+                            border-radius: 5px;
+                        }
+                        
+                        .course-img-sm:hover {
+                            cursor: crosshair;
+                            filter: grayscale(100%);
+                            transform: scale(1.012);
+                        }
+                        /* end service */
+                        /* start course */
+                        
+                        .card-img {
+                            width: 100%;
+                            height: 250px;
+                        }
+                        
+                        .card {
+                            transition: 0.5s;
+                        }
+                        
+                        .card:hover {
+                            cursor: pointer;
+                            transform: scale(1.03);
+                            box-shadow: 0px 15px 20px #EEF0F9;
+                            color: #5C6AC4
+                        }
+                        /* end course */
+                        /* start lesson */
+                        
+                        .border-grey {
+                            border: 1px solid#E5E5E5;
+                        }
+                        /* end lesson */
+                        /* start contact */
+                        
+                        .contact,
+                        .anyQuestion {
+                            background-color: #121213;
+                            border-bottom: 1px solid grey;
+                        }
+                        
+                        .contact {
+                            padding-top: 50px;
+                            padding-bottom: 20px;
+                        }
+                        
+                        .btn-white {
+                            background-color: white;
+                            margin-top: 30px;
+                            color: black;
+                            padding: 13px 35px;
+                            text-decoration: none;
+                            border-radius: 15px;
+                        }
+                        /* end contact */
+                        
+                        .footer {
+                            background-color: #121213;
+                        }
